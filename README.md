@@ -9,7 +9,7 @@ We used the jupyter notebook and the citipy module to get the cities of more tha
 
 ### 1. Collect the Weather Data
 
-- Perform request from OpenWeather Map API and retrieve the JSON weather data from these cities. 
+- Perform request from OpenWeather Map API and retrieve the JSON ( _JavaScript Object Notation_ ) weather data from these cities. 
 
 - The weather data is added to a Pandas DataFrame.
 
@@ -19,14 +19,14 @@ We used the jupyter notebook and the citipy module to get the cities of more tha
 
 - This result would help the team in the travel company plan the best time of the year and location to plan the trips for the clients.
 
-- We exported the data, clean it and the used the weather data to plan the best cities to plan an ideal vacation based on certain weather criteria.
+- We imported the data, cleaned it and the used the weather data to plan the best cities to plan an ideal vacation based on certain weather criteria.
 
 - We mapped these cities by using jupyter gmaps and the Google Places API.
 
 ### **Deliverable 1: Retrieve Weather Data**
 **Summary:** 
 - We created 2000 random latitudes and longitudes and obtained the nearest city using the _citypy_ module. 
-- We performed an API call with the OpenWeatherMap and retrieved the following information from the API JSON (_JavaScript Object Notation_)  file:
+- We performed an API call with the OpenWeatherMap and retrieved the following information from the API JSON  file:
 
     - Latitude, Longitude
     - Maximum temperature
@@ -73,7 +73,7 @@ We create a travel itinerary for a customer in India using Google Directions API
 
 - We created a latitude and longitude pairs for each of the four cities. 
 
-- We made a directions map between the four cities and saved the figure (shown in Fig 4 below). The directions is for driving for the convenience of the traveler.
+- We made a directions map between the four cities and saved the figure (shown in Fig 4 below). The directions is for _Driving_ for the convenience of the traveler.
 
 <img src ="Vacation_Itinerary/WeatherPy_travel_map.png">
 
